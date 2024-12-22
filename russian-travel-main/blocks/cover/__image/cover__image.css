@@ -1,0 +1,10 @@
+.cover__image {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%); /* Dim the image to make text more readable */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Send the image behind the content */
+    object-fit: cover; /* Ensures the image covers the entire container */
+  }
